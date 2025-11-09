@@ -1,5 +1,5 @@
 import styles from "./Header.module.css"
-import SignInButton from "../SignInButton/SignInButton"
+import SignInButton from "../SignInButton"
 
 export default function Header(){
   return (
