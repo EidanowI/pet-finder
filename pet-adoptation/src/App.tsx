@@ -1,10 +1,11 @@
 import Header from "./components/Header"
-import styles from "./App.module.css"
+import HeroSection from "./components/HeroSection"
 
 function App() {
-  return (<div className={styles.body_conteiner}>
+  return (<>
     <Header/>
-  </div>)  
+    <HeroSection/>
+  </>)  
 }
 
 export default App
