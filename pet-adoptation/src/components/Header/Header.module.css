@@ -1,0 +1,31 @@
+.header_conteiner{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70px;
+  background-color: green;
+  display: flex;
+  align-items: center;
+}
+
+.logo_conteiner{
+  width: 140px;
+  margin-left: 15px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.logo_conteiner img{
+  width: 100%;
+}
+
+.middle_conteiner{
+  flex-grow: 1; 
+  background-color: lightgreen;
+}
+
+.button_conteiner{
+  width: 140px;
+  height: 38px;
+  background-color: aqua;
+}
