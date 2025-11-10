@@ -1,0 +1,45 @@
+.available_pets_conteiner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+.available_pets_link{
+  margin-top: var(--topMargin);
+  filter: grayscale(0%);
+}
+
+.available_pets_link:hover{
+  cursor: pointer;
+   filter: grayscale(40%);
+}
+
+.available_pets_link a{
+  text-decoration: none;
+}
+
+
+.available_pets_link p{
+  color: rgb(101, 4, 181);
+  font-family: "Nexa";
+  font-weight: 400;
+  font-size: 2rem;
+  font-style: normal;
+  font-variant: normal;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+
+
+.available_pets_link img{
+  width: 25px;
+  display: flex;
+  align-items: center;
+}
+
