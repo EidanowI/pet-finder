@@ -1,4 +1,5 @@
 import styles from "./HeroSection.module.css"
+import QuizzleCard from "../QuizzleCard/QuizzleCard";
 
 export default function HeroSection(){
   return (
@@ -11,33 +12,20 @@ export default function HeroSection(){
       <div className={styles.filtered_redirect_conteiner}>
         <div className={styles.cards_conteiner}>
           <div className={styles.quizzle_card}>
-            <div className={styles.quizzle_img_conteiner}>
-              <img src="../../public/img/quizzle/dog.png" className={styles.quizzle_img}></img>
-            </div>
-            <p className={styles.quizzle_paragraph}>Dogs</p>
+            <QuizzleCard label="Dogs" iconPath="../../public/img/quizzle/dog.png"></QuizzleCard>
           </div>
           <div className={styles.quizzle_card}>
-            <div className={styles.quizzle_img_conteiner}>
-              <img src="../../public/img/quizzle/cat.png" className={styles.quizzle_img}></img>
-            </div>
-            <p className={styles.quizzle_paragraph}>Cats</p>
+            <QuizzleCard label="Cats" iconPath="../../public/img/quizzle/cat.png"></QuizzleCard>
           </div>
           <div className={styles.quizzle_card}>
-            <div className={styles.quizzle_img_conteiner}>
-              <img src="../../public/img/quizzle/other.png" className={styles.quizzle_img}></img>
-            </div>
-            <p className={styles.quizzle_paragraph}>Other Animals</p>
+            <QuizzleCard label="Other Animals" iconPath="../../public/img/quizzle/other.png"></QuizzleCard>
           </div>
           <div className={styles.quizzle_card}>
-            <div className={styles.quizzle_img_conteiner}>
-              <img src="../../public/img/quizzle/shelters.png" className={styles.quizzle_img}></img>
-            </div>
-            <p className={styles.quizzle_paragraph}>Shelters & Rescues</p>
+            <QuizzleCard label="Shelters & Rescues" iconPath="../../public/img/quizzle/shelters.png"></QuizzleCard>
           </div>
         </div>
       </div>
       <div className={styles.debug_div}> 
-        ff
       </div>
     </>
   );

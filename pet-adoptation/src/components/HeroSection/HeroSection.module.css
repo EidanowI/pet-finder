@@ -88,25 +88,3 @@
   border-color: rgb(101, 4, 181);
   border-width: 2px;
 }
-
-.quizzle_img_conteiner{
-   width: 100px;
-
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 15px;
-}
-
-.quizzle_img{
-  width: 100%;
-}
-
-.quizzle_paragraph{
-  width: 100%;
-  margin-top: 10px;
-  text-align: center;
-  color: rgb(77, 71, 81);
-  font-family: "Nexa";
-  font-weight: 400;
-  font-size: 1.1rem;
-}
