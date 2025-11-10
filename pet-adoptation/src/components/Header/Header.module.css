@@ -1,18 +1,18 @@
 .header_conteiner{
-  max-width: 1200px;
+  max-width: 1300px;
   margin-left: auto;
   margin-right: auto;
-  height: 70px;
-  background-color: green;
+  height: 80px;
   display: flex;
   align-items: center;
 }
 
 .logo_conteiner{
-  width: 140px;
+  width: 190px;
   margin-left: 15px;
   margin-top: auto;
   margin-bottom: auto;
+  cursor: pointer;
 }
 
 .logo_conteiner img{
@@ -21,11 +21,40 @@
 
 .middle_conteiner{
   flex-grow: 1; 
-  background-color: lightgreen;
+  margin-left: 40px;
+  margin-right: 40px;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.vertical_line::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 1px;
+  background-color: rgb(145, 145, 145);
 }
 
 .button_conteiner{
   width: 140px;
   height: 38px;
-  background-color: aqua;
+}
+
+.favorites_img{
+  width: 30px;
+  margin-left: auto;
+  margin-right: 20px;
+  filter: grayscale(100%);
+  
+  transition: filter 200ms ease;
+}
+
+.favorites_img:is(:hover, :focus){
+  filter: grayscale(0%);
+
+  cursor: pointer;
 }
