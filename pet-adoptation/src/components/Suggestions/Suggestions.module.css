@@ -1,0 +1,12 @@
+.suggestions_conteiner{
+  background-color: #efeef1;
+  width: 100vw;
+  height: 700px;
+}
+
+.petsCard_conteiner{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}

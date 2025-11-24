@@ -1,3 +1,20 @@
+.quizzle_card{
+  box-sizing: border-box;
+  width: 188px;
+  background-color: white;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgb(210, 209, 211);
+  border-width: 1px;
+}
+
+.quizzle_card:hover{
+  cursor: pointer;
+  outline-style: solid;
+  outline-width: 2px;
+  outline-color: rgb(101, 4, 181);
+}
+
 .quizzle_img_conteiner{
    width: 100px;
 

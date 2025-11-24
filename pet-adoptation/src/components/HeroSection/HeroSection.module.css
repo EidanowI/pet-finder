@@ -32,6 +32,8 @@
   font-weight: 700;
   line-height: 50px;
   color: white;
+
+  cursor: default;
 }
 
 .paragraph_overlay{
@@ -45,6 +47,8 @@
   font-weight: 700;
   line-height: 32px;
   color: white;
+
+  cursor: default;
 }
 
 .filtered_redirect_conteiner{
@@ -66,25 +70,3 @@
 
 }
 
-.debug_div{
-  background-color: #efeef1;
-  width: 100vw;
-  height: 500px;
-}
-
-.quizzle_card{
-  box-sizing: border-box;
-  width: 188px;
-  background-color: white;
-  border-radius: 10px;
-  border-style: solid;
-  border-color: rgb(210, 209, 211);
-  border-width: 1px;
-}
-
-.quizzle_card:hover{
-  cursor: pointer;
-  background-color: #efeef1;
-  border-color: rgb(101, 4, 181);
-  border-width: 2px;
-}

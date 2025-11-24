@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'Nexa';
+  src: url('../../../public/Fonts/Nexa/Nexa-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.meet_card{
+  width: 225px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.meet_card_content{
+  width: 100%;
+  height: 239px;
+  background-color: rgb(101, 4, 181);
+  border-bottom-color: rgb(39, 5, 66);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+.meet_card_footer{
+  width: 100%;
+  height: 55px;
+  background-color: rgb(101, 4, 181);
+  display: flex;
+  align-items: center;
+}
+
+.meet_card:hover{
+  cursor: pointer;
+}
+
+.meet_card:hover .meet_card_footer{
+  background-color: #410078;
+}
+
+.meet_card_img{
+  display: block;
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 65px;
+  margin-bottom: 20px;
+  filter: brightness(0) invert(1);
+}
+
+.meet_card_text{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  font-family: "Nexa";
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.meet_card_message{
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-family: "Nexa";
+  font-weight: 900;
+  font-size: 0.9rem;
+}

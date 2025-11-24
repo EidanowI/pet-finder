@@ -11,21 +11,11 @@ export default function HeroSection(){
       </div>
       <div className={styles.filtered_redirect_conteiner}>
         <div className={styles.cards_conteiner}>
-          <div className={styles.quizzle_card}>
             <QuizzleCard label="Dogs" iconPath="../../public/img/quizzle/dog.png"></QuizzleCard>
-          </div>
-          <div className={styles.quizzle_card}>
             <QuizzleCard label="Cats" iconPath="../../public/img/quizzle/cat.png"></QuizzleCard>
-          </div>
-          <div className={styles.quizzle_card}>
             <QuizzleCard label="Other Animals" iconPath="../../public/img/quizzle/other.png"></QuizzleCard>
-          </div>
-          <div className={styles.quizzle_card}>
             <QuizzleCard label="Shelters & Rescues" iconPath="../../public/img/quizzle/shelters.png"></QuizzleCard>
-          </div>
         </div>
-      </div>
-      <div className={styles.debug_div}> 
       </div>
     </>
   );
